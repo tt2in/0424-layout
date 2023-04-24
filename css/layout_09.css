@@ -1,0 +1,65 @@
+.body{
+    background-color: white;
+    font-size: 140x;
+    color: #222;
+    line-height: 1.5;
+}
+
+.btn{
+    display: block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #b28c68;
+    border: solid 1px #b28c68;
+    border-radius: 30px;
+    font-size: 11px;
+    color: white;
+}
+
+.btn.line{
+    background-color: transparent;
+    color: #b28c68;
+
+}
+
+.header{
+    background-color: #222;
+}
+
+.header .inner{
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .inner .gnb{
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+
+.header .inner .gnb li{
+    /* background-color: red; */
+}
+
+.header .inner .gnb li a{
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    padding: 0 20px;
+}
+
+.header .inner .btns{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.header .inner .btns a{
+    display: block;
+    
+}
